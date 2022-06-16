@@ -21,7 +21,7 @@ func main() {
 	fmt.Println("Before you enter the castle, you must cross the bridge. There is a knight guarding it!")
 	fmt.Println(" 'To cross my bridge you must pay the toll in gold!' ")
 	fmt.Println("Can you guess how much gold it costs?")
-	fmt.Println(target)
+	//fmt.Println(target)
 
 	reader := bufio.NewReader(os.Stdin) // Let's program read input from keyboard
 
