@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import ( 
+	"fmt"
+	"testing"
+)	
 
-func main() {
+func Teststuff(t *testing.T) {
 	fmt.Println("Hello, world")
 }
